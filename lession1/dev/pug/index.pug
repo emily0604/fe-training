@@ -1,0 +1,32 @@
+extends templates/layout
+
+block nav 
+    nav
+        .container 
+
+            .menu-button
+                i.fa.fa-bars
+            a.logo(href="#!") Frebdm
+            - var navList = ['Home', 'Portfolio', 'Blog', 'Contact', 'Shop']
+            ul 
+                each item in navList 
+                    li
+                        a(href="#!") #{item}
+            .login 
+                a(href="#!")
+                    i.fa.fa-user
+                a(href="#!")
+                    i.fa.fa-circle
+                a(href="#!")
+                    i.fa.fa-lock
+
+
+block banner
+    .container-fluid.slider
+        .slides
+            img(src="http://via.placholder.com/1000x600", alt="")
+        .slides
+            img(src="http://via.placholder.com/1000x600", alt="")
+        .slides
+            img(src="http://via.placholder.com/1000x600", alt="")
+
