@@ -1,0 +1,76 @@
+block config 
+  - var name = 'ha'
+  - var age = 31
+  - var pageTitle = "lession1"
+  - var navList = ['Home', 'Portfolio', 'Blog', 'Contact', 'Shop']
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport", content='width=device-width,initial-scale=1')
+  title #{pageTitle}
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css")
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+  link(rel="stylesheet", href="css/app.css")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", defer)
+  script(src="js/app.js", defer)
+body
+  nav
+    .container 
+      .menu-button
+        i.fa.fa-bars
+      a.logo(href="#!") Frebdm
+      ul 
+        each item in navList 
+          li
+            a(href="#!") #{item}
+      .login 
+        a(href="#!")
+          i.fa.fa-user
+        a(href="#!")
+          i.fa.fa-circle
+        a(href="#!")
+          i.fa.fa-lock
+
+  block main
+    
+  footer 
+      .footer-above.py-5
+        .container
+          .row
+            section.col-md-3
+              h5 snippet
+              p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam molestias quos reprehenderit eaque nisi animi dolore expedita et asperiores, nostrum quaerat laborum repudiandae distinctio sapiente dicta! Nam eveniet ipsum modi.
+            section.col-md-3
+              h5 tag
+              .tags 
+                a(href="#!") responsive
+                a(href="#!") tag
+                a(href="#!") template 
+                a(href="#!") Design 
+                a(href="#!") Design
+                a(href="#!") Creative
+            section.col-md-3
+              h5 contact
+              form
+                .form-group
+                  label(for="name") name
+                  input#name.form-control(type="text")
+                .form-group
+                  label(for="email") email
+                  input#email.form-control(type="email")
+                .form-group
+                  label(for="message") message
+                  textarea#message.form-control
+            section.col-md-3
+              h5 Tweeter
+              p Check out this great https://www.behance.net/Bridgetech  Freddom-Responsive Multi-purpose March 06 2014
+      .footer-below
+        .container
+          p Copyright © All Rights Reserved. Bridgetech-ma.com.com - Goh.h.com@gmail.com
+          .footer-nav
+            a(href="#!") home
+            a(href="#!") portfolio
+            a(href="#!") blog
+            a(href="#!") contact
+            a(href="#!") shop
