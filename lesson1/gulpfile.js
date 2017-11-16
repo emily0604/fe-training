@@ -7,7 +7,6 @@ var gulp = require('gulp'),
     pug = require('gulp-pug'),
     browserSync = require('browser-sync');
 
-
 gulp.task('pug', function(){
     gulp.src('dev/pug/*.pug')
         .pipe(pug())
@@ -40,11 +39,8 @@ gulp.task('serve', function(){
             baseDir : 'build/'
         }
     });
-
     gulp.watch('dev/sass/**/*.sass', ['styles']);
-
     gulp.watch('dev/js/**/*.js', ['uglify']);
-
     gulp.watch('dev/pug/**/*.pug', ['pug']);
 });
 
