@@ -1,0 +1,16 @@
+header
+    nav.nav1.container
+      div.col-md-4
+        div.currency 
+          span Currency:
+          +dropdown(dropdown.data)
+      div.col-md-2
+      div.list-cart.col-md-6
+        nav.cart.col-md-8
+          ul.nav
+            +menu(menu.menucart)
+        div.dropdown.col-md-4
+          button.btn.btn-default.dropdown-toggle#dropdownMenu1(type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:100%")
+            img.img-responsive(src='../images/home/cart.png')
+            span empty
+            span.caret

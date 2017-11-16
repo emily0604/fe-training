@@ -1,0 +1,14 @@
+{
+  "dropdown": {
+    "data": [
+    	{
+	        "href": "#",
+	        "value": "GBP"
+      	},
+      	{
+	        "href": "#",
+	        "value": "USD"
+      	}
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "list": {
+    "data": [
+    	 {
+	        "href": "#",
+	        "value": "Jackets",
+          "dr" : 1
+      	},
+      	{
+	        "href": "#",
+	        "value": "Hoodies & Sweatshirts",
+          "dr" : 1
+      	},
+      	{
+	        "href": "#",
+	        "value": "Polo Shirts",
+          "dr" : 0
+      	},
+      	{
+	        "href": "#",
+	        "value": "Sportswear",
+          "dr" : 1
+      	},
+        {
+          "href": "#",
+          "value": "T-Shirts",
+          "dr" : 1
+        }
+    ],
+
+    "data2": [
+       {
+          "href": "#",
+          "value": "Jackets",
+          "dr" : 1
+        },
+        {
+          "href": "#",
+          "value": "Shirts",
+          "dr" : 1
+        },
+        {
+          "href": "#",
+          "value": "Suits",
+          "dr" : 0
+        },
+        {
+          "href": "#",
+          "value": "Trousers",
+          "dr" : 1
+        }
+    ]
+
+  }
+}

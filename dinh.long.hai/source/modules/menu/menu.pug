@@ -1,0 +1,25 @@
+include ../list/list
+
+mixin menu(data)
+  each ent, num in data
+   li
+     - if(ent.dr == 1)
+         a.dropdown-toggle(data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href= ent.href)= ent.value
+         span.caret.arrow
+         div.dropdown-menu
+           div.col-md-6
+             p CASUALS
+             ul.nav
+               +list(list.data)
+           div.col-md-6
+             p FORMAL
+             ul.nav
+               +list(list.data2)
+           div.col-md-12
+            div.sale-bg
+             p AUTUMN SALE!
+             p UP TO 50% OFF
+     - else
+         a(href= ent.href)= ent.value
+
+

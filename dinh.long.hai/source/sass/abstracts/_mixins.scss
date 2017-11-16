@@ -1,0 +1,54 @@
+@mixin li() {
+  display:inline-block;
+}
+
+@mixin section() {
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 40px;
+}
+
+@mixin menu() {
+  background-color: transparent;
+  border-color: transparent;
+
+  li a {
+    color: $color-text-sec1;
+    padding-bottom: 0px;
+  }
+
+  li a:hover {
+    color: $bg-cart;
+  }
+
+  .arrow {
+    margin-left: 19px;
+  }
+
+  li a:focus {
+    color: $bg-cart;
+  }
+
+}
+
+@mixin boxshadow() {
+  -webkit-box-shadow: -2px -1px 49px -7px rgba(0,0,0,0.6);
+  -moz-box-shadow: -2px -1px 49px -7px rgba(0,0,0,0.6);
+  box-shadow: -2px -1px 49px -7px rgba(0,0,0,0.6);
+}
+
+@mixin producthover($product,$hover,$fromnum,$tonum) {
+  @for $i from $fromnum through $tonum {
+    #{$hover}-#{$i} {
+      display: none;
+    }
+
+    #{$product}-#{$i}:hover {
+      @include boxshadow();
+    }
+
+    #{$product}-#{$i}:hover #{$hover}-#{$i} {
+      display: block;
+    }
+  }
+}

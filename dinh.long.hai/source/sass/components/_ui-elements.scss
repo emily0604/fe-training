@@ -1,0 +1,77 @@
+.nav1 .currency{
+  margin-top:11px;
+  color: #696969;
+}
+
+.nav1 select{
+  background: unset;
+  border: unset;
+}
+
+.nav1 .dropdown #dropdownMenu1{
+	background-color: $bg-cart;
+	border: unset;
+	border-radius: unset;
+	font-size: 13px;
+	height: 40px;
+
+	span{
+	  color: $color-text-header;
+	}
+
+	img {
+	 display: inline-block;
+	 float:left;
+	}
+}
+ 
+.sec1 {
+  button {
+    position: absolute;
+    top: 80%;
+    left: 72%;
+    width: 360px;
+    height: 60px;
+    font-size: 16px;
+    font-family: mainfontme;
+    word-spacing: 5px;
+    background-color: transparent;
+    border:2px solid $color-text-sec1;
+    border-radius: unset;
+  }
+
+  button:hover{
+    background-color: $bg-cart;
+    color: #fff;
+    border-color: unset;
+  }
+
+}
+
+.sec2 {
+  @include producthover('.thumb','#hidden',1,6);
+  
+  .pr-left {
+    div {
+      margin-top: 20px;
+      position: relative;
+    }
+
+    span {
+      color: $color-text-price;
+      position: absolute;
+      top: 10px;
+      margin-left:15px;
+      font-family: mainfontre;
+    }
+
+    #pricenew {
+      margin-left: 85px;
+    }
+  }
+
+  .pr-right {
+    @extend .pr-left;
+  }
+
+}

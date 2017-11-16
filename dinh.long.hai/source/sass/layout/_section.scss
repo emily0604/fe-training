@@ -1,0 +1,11 @@
+.sec1{
+  background-image: url('../images/home/slide1.jpg');
+  @include section();
+  font-family: mainfontb;
+  height: 900px;
+  position: relative;
+}
+
+.sec2 {
+  @include section();
+}

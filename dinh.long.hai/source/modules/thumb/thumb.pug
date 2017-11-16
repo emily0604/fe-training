@@ -1,0 +1,13 @@
+mixin thumb(data)
+  each ent, num in data
+   div(class= 'thumb-'+ent.number+' col-md-'+(12/data.length))
+     a(href= ent.href)
+       img.img-responsive(src= ent.value)
+       - if(ent.price_new == 0)
+           span= '£ '+ent.price
+       - else
+           span(style= 'text-decoration: line-through;')= '£ '+ent.price 
+           span#pricenew= '£ '+ent.price_new  
+     - if(ent.div == true)
+         div(id='hidden-'+ent.number)
+           p hhh
