@@ -1,0 +1,10 @@
+{
+  "head": {
+    "home": {
+      "title": "Home Index",
+      "mobile": true,
+      "meta": "default",
+      "og": "default"
+    }
+  }
+}

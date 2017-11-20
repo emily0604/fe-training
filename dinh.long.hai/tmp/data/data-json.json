@@ -1,0 +1,224 @@
+{
+	"pageList": {
+		"data": [
+			{
+				"title": "P000 welcome",
+				"url": "p000-welcome"
+			}
+		]
+	},
+	"dropdown": {
+		"data": [
+			{
+				"href": "#",
+				"value": "GBP"
+			},
+			{
+				"href": "#",
+				"value": "USD"
+			}
+		]
+	},
+	"head": {
+		"home": {
+			"title": "Home Index",
+			"mobile": true,
+			"meta": "default",
+			"og": "default"
+		}
+	},
+	"heading": {
+		"main": {
+			"title": "Title"
+		}
+	},
+	"list": {
+		"data": [
+			{
+				"href": "#",
+				"value": "Jackets",
+				"dr": 1
+			},
+			{
+				"href": "#",
+				"value": "Hoodies & Sweatshirts",
+				"dr": 1
+			},
+			{
+				"href": "#",
+				"value": "Polo Shirts",
+				"dr": 0
+			},
+			{
+				"href": "#",
+				"value": "Sportswear",
+				"dr": 1
+			},
+			{
+				"href": "#",
+				"value": "T-Shirts",
+				"dr": 1
+			}
+		],
+		"data2": [
+			{
+				"href": "#",
+				"value": "Jackets",
+				"dr": 1
+			},
+			{
+				"href": "#",
+				"value": "Shirts",
+				"dr": 1
+			},
+			{
+				"href": "#",
+				"value": "Suits",
+				"dr": 0
+			},
+			{
+				"href": "#",
+				"value": "Trousers",
+				"dr": 1
+			}
+		]
+	},
+	"menu": {
+		"data": [
+			{
+				"href": "#",
+				"value": "MENS",
+				"dr": 1
+			},
+			{
+				"href": "#",
+				"value": "WOMENS",
+				"dr": 1
+			},
+			{
+				"href": "#",
+				"value": "THE BRAND",
+				"dr": 0
+			},
+			{
+				"href": "#",
+				"value": "LOCAL STORIES",
+				"dr": 1
+			},
+			{
+				"href": "#",
+				"value": "LOOK BOOK",
+				"dr": 1
+			}
+		],
+		"menucart": [
+			{
+				"href": "#",
+				"value": "Register",
+				"dr": 0
+			},
+			{
+				"href": "#",
+				"value": "Sign in",
+				"dr": 0
+			}
+		],
+		"menusec2": [
+			{
+				"href": "#",
+				"value": "POPULAR",
+				"dr": 0
+			},
+			{
+				"href": "#",
+				"value": "NEW ARRIVALS",
+				"dr": 0
+			},
+			{
+				"href": "#",
+				"value": "BEST SELLERS",
+				"dr": 0
+			},
+			{
+				"href": "#",
+				"value": "SPECIAL OFFER",
+				"dr": 0
+			},
+			{
+				"href": "#",
+				"value": "COMING SOON",
+				"dr": 0
+			}
+		]
+	},
+	"thumb": {
+		"data": [
+			{
+				"href": "#",
+				"value": "images/home/product2.jpg",
+				"dr": 1,
+				"price": 69.96,
+				"price_new": 0,
+				"number": 1,
+				"div": true,
+				"text": "WOMENS BURNT ORANGE CASIAL TEE £29.95"
+			}
+		],
+		"data2": [
+			{
+				"href": "#",
+				"value": "images/home/product1.jpg",
+				"dr": 1,
+				"price": 89.99,
+				"price_new": 0,
+				"number": 2,
+				"div": true,
+				"text": "WOMENS BURNT ORANGE CASIAL TEE £89.99"
+			},
+			{
+				"href": "#",
+				"value": "images/home/product1.jpg",
+				"dr": 1,
+				"price": 47.5,
+				"price_new": 0,
+				"number": 3,
+				"div": true,
+				"text": "WOMENS BURNT ORANGE CASIAL TEE 47.50"
+			}
+		],
+		"data3": [
+			{
+				"href": "#",
+				"value": "images/home/product1.jpg",
+				"dr": 1,
+				"price": 89.99,
+				"price_new": 0,
+				"number": 4,
+				"div": true,
+				"text": "WOMENS BURNT ORANGE CASIAL TEE £89.99"
+			},
+			{
+				"href": "#",
+				"value": "images/home/product1.jpg",
+				"dr": 1,
+				"price": 47.5,
+				"price_new": 0,
+				"number": 5,
+				"div": true,
+				"text": "WOMENS BURNT ORANGE CASIAL TEE £47.50"
+			}
+		],
+		"data4": [
+			{
+				"href": "#",
+				"value": "images/home/product2.jpg",
+				"dr": 1,
+				"price": 89.99,
+				"price_new": 107,
+				"number": 6,
+				"div": true,
+				"text": "WOMENS BURNT ORANGE CASIAL TEE £89.99"
+			}
+		]
+	}
+}

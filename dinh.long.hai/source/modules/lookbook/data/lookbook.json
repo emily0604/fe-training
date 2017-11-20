@@ -1,0 +1,70 @@
+{
+  "menu": {
+    "data": [
+    	{
+	        "href": "#",
+	        "value": "MENS",
+          "dr" : 1
+      	},
+      	{
+	        "href": "#",
+	        "value": "WOMENS",
+          "dr" : 1
+      	},
+      	{
+	        "href": "#",
+	        "value": "THE BRAND",
+          "dr" : 0
+      	},
+      	{
+	        "href": "#",
+	        "value": "LOCAL STORIES",
+          "dr" : 1
+      	},
+        {
+          "href": "#",
+          "value": "LOOK BOOK",
+          "dr" : 1
+        }
+    ],
+    "menucart": [
+      {
+          "href": "#",
+          "value": "Register",
+          "dr" : 0
+        },
+        {
+          "href": "#",
+          "value": "Sign in",
+          "dr" : 0
+        }
+    ],
+    "menusec2": [
+      {
+          "href": "#",
+          "value": "POPULAR",
+          "dr" : 0
+        },
+        {
+          "href": "#",
+          "value": "NEW ARRIVALS",
+          "dr" : 0
+        },
+        {
+          "href": "#",
+          "value": "BEST SELLERS",
+          "dr" : 0
+        },
+        {
+          "href": "#",
+          "value": "SPECIAL OFFER",
+          "dr" : 0
+        },
+        {
+          "href": "#",
+          "value": "COMING SOON",
+          "dr" : 0
+        }
+    ]
+  }
+}
