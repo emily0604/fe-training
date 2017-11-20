@@ -1,80 +1,80 @@
-.list-cart ul li{
+.list-cart li {
   @include li();
 
   a {
-    color: #696969;
+    color: $color-text-cart;
   }
 
-  a:hover{
-    color: $color-text-header;
+  a:hover {
     background: unset;
+    color: $color-text-header;
   }
 
-  a:focus{
-    color: $color-text-header;
+  a:focus {
     background: unset;
+    color: $color-text-header;
   }
 
 }
 
-.list-cart ul{
+.list-cart ul {
   float: right;
   margin-right: 70px;
 }
 
 // section1-home
 
-.sec1 .navbar-default{
-  @include menu();
+.sec1 {
+  .navbar-default {
+    @include menu();
 
-  .navbar-brand{
-    font-size: 24px;
+    .navbar-brand {
+      font-size: 24px;
+    }
   }
 
   .dropdown-menu {
-    min-width: 460px;
-    padding-top: 20px;
     border: unset;
     border-radius: unset;
+    min-width: 460px;
+    padding-top: 20px;
 
     a {
-      font-family: mainfontre;
       color: $color-text-drop;
+      font-family: mainfontre;
     }
 
     a:hover {
-      background-color:transparent;
+      background-color: transparent;
     }
 
     a:focus {
-      background-color:transparent;
+      background-color: transparent;
     }
 
     p {
-      padding-bottom: 20px;
       font-size: 12px;
       margin-left: 13px;
+      padding-bottom: 20px;
     }
 
     .sale-bg {
       background-color: $color-text-sec1;
+      margin: 60px 15px 25px;
       padding: 50px;
-      margin: 60px 15px 25px 15px;
 
       p {
-      	color: $color-text-header;
-      	font-family: mainfontme;
-      	font-size: 36px;
-      	margin-bottom : 5px;
-      	padding-bottom : 0px;
+        color: $color-text-header;
+        font-family: mainfontme;
+        font-size: 36px;
+        margin-bottom: 5px;
+        padding-bottom: 0;
       }
-
     }
-
-  }
+  }  
 }
 
-.sec2 .navbar-default{
+.sec2 .navbar-default {
   @include menu();
 
   a {
@@ -83,7 +83,7 @@
 
 }
 
-.sec2 .navbar{
-  margin-bottom: 0px;
+.sec2 .navbar {
+  margin-bottom: 0;
 }
 
