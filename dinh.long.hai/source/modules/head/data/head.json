@@ -1,7 +1,7 @@
 {
   "head": {
     "home": {
-      "title": "Main",
+      "title": "Login",
       "mobile": true,
       "meta": "default",
       "og": "default"
