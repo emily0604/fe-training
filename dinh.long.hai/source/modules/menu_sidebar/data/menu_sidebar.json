@@ -1,0 +1,17 @@
+{
+  "menu_sidebar": {
+    "data": [{
+        "value": "UI Elements",
+        "dr": false,
+        "to": "p002-ui.html",
+        "icon": "glyphicon glyphicon-th-large pull-left"
+      },
+      {
+        "value": "Form",
+        "dr": false,
+        "to": "p003-form.html",
+        "icon": "glyphicon glyphicon-pencil"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+include modules/head/head
+include modules/menu_sidebar/menu_sidebar
+include modules/tab/tab
+include modules/table/table
+include modules/basic_input/basic_input
+include modules/basic_select/basic_select
+include modules/form-button/form-button
+include modules/form-inline/form-inline
+
+doctype html
+html
+  head
+    +head(head.form)
+  body
+    div.container-fluid
+      div.row.wrapper
+        include parts/sidebar.pug
+        include parts/form-content.pug

@@ -1,0 +1,21 @@
+include modules/header/header
+include modules/head/head
+include modules/form/form
+
+doctype html
+html
+  head
+    +head(head.home)
+  body
+    section.container-fluid.section1
+      div.container
+        div.login-form.col-md-5.col-md-offset-4
+         h1 Login
+         form(action= '' method= 'post')
+           +form(form.login)
+           div.checkbox
+             label
+               input(type='checkbox') 
+               span Remember me
+           button.btn.btn-primary(type="submit") Sign In
+

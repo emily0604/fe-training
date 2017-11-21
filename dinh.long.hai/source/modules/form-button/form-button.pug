@@ -1,0 +1,12 @@
+mixin form-button(data)
+  each ent, num in data
+    div.form-group.col-md-12
+      div.input-group
+        - if(ent.type == 1)
+            span.input-group-btn
+              button.btn.btn-primary(type="button")= ent.value
+            input.form-control(type="text")
+        - else
+            input.form-control(type="text")
+            span.input-group-btn
+              button.btn.btn-primary(type="button")= ent.value

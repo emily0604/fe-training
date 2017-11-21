@@ -1,0 +1,6 @@
+.section1 {
+  @include gradient($bg-gradient1, $bg-gradient2);
+  padding-bottom: 400px;
+  padding-top: 200px;
+}
+

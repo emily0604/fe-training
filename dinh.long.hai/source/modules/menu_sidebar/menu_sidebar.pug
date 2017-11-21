@@ -1,0 +1,12 @@
+include ../ul_basic/ul_basic
+
+mixin menu_sidebar(data)
+  ul.nav.main
+    each ent, num in data
+      li
+        a(href= ent.to)
+          i(class= ent.icon)
+          span= ent.value
+          span.glyphicon.glyphicon-menu-down.pull-right
+        - if(ent.dr == true)
+          +ul_basic(ul_basic.data)

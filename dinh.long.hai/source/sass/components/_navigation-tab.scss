@@ -1,0 +1,28 @@
+.sidebar-menu {
+  h5 {
+    padding-left: 15px;
+  }
+
+  li a {
+    color: $sidebar-text-color;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  i {
+    margin-right: 10px;
+  }
+
+  li a:hover {
+    @include hover-focus();
+  }
+
+  li a:focus {
+    @include hover-focus();
+  }
+
+  li a:active {
+    @include hover-focus();
+  }
+
+}

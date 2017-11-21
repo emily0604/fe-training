@@ -1,0 +1,5 @@
+mixin form-inline(data)
+  each ent, num in data
+    div.form-group
+      label(for= ent.for)= ent.value
+      input.form-control(type= ent.type id= ent.for)

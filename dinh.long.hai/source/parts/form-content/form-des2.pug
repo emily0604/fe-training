@@ -1,0 +1,120 @@
+div.form-des2.col-md-5.col-sm-12
+  h4 Form Basic Elements
+  hr
+  form.row
+    +basic_input([
+      {
+        "label": "Default Input",
+        "type": "text",
+        "placeholder": "Default Input",
+        "disable": false,
+        "value": ""
+      },
+      {
+        "label": "Disabled Input",
+        "type": "text",
+        "placeholder": "Disabled Input",
+        "disable": true,
+        "value": ""
+      }
+    ])
+    div.form-group.col-md-12.col-sm-12
+      label.col-md-3.col-sm-3 Textarea
+      div.col-md-6.col-sm-8
+        textarea.form-control(rows= 5 placeholder='Enter text here!')
+    +basic_input([
+      {
+        "label": "Password",
+        "type": "password",
+        "placeholder": "",
+        "disable": false,
+        "value": "1234567222"
+      }
+    ])
+    +basic_select([
+      {
+        "label": "Select",
+        "multiple": false,
+        "value": [
+          {
+            "option": "Choose option"
+          },
+          {
+            "option": "Option one"
+          },
+          {
+            "option": "Option two"
+          }
+        ]
+      }
+    ])
+    +basic_select([
+      {
+        "label": "Select Custom",
+        "multiple": false,
+        "value": [
+          {
+            "option": ""
+          },
+          {
+            "option": "Alaska"
+          },
+          {
+            "option": "Moscow"
+          },
+          {
+            "option": "Hanoi"
+          }
+        ]
+      }
+    ])
+    +basic_select([
+      {
+        "label": "Select Multiple",
+        "multiple": true,
+        "value": [
+          {
+            "option": "Wasington"
+          },
+          {
+            "option": "Alaska"
+          },
+          {
+            "option": "Moscow"
+          },
+          {
+            "option": "Hanoi"
+          },
+          {
+            "option": "HCM City"
+          },
+          {
+            "option": "Singapore"
+          }
+        ]
+      }
+    ])
+    div.form-group.col-md-12.col-sm-12
+      label.col-md-3.col-sm-3 Input tags
+      div.col-md-6.col-sm-8
+        input(type="text" value="Amsterdam,Washington,Sydney,Beijing,Cairo" data-role="tagsinput")
+    div.form-group.col-md-12
+      label.col-md-3.col-sm-3 Checkboxes and Radios
+      div.col-md-6.col-sm-8
+        div.col-md-12.col-sm-12
+          input(type='checkbox') 
+          span Option one
+        div.col-md-12.col-sm-12
+          input(type='checkbox' disabled)
+          span Option two is disabled
+        div.col-md-12.col-sm-12
+          input(type='radio' name="optionsRadios" id="optionsRadios1" value='option1' checked)
+          span Option one
+        div.col-md-12.col-sm-12
+          input(type='radio' name="optionsRadios" id="optionsRadios2" value='option2')
+          span Option two
+        div.col-md-12.col-sm-12
+          input(type='radio' disabled)
+          span Option three is disabled
+    div.form-group.col-md-6.col-sm-6.col-md-offset-4
+      

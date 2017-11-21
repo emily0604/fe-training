@@ -1,0 +1,44 @@
+.bootstrap-tagsinput {
+  background-color: $bg-login-form;
+  border: 1px solid $border-color-tags;
+  border-radius: 4px;
+  cursor: text;
+  display: inline-block;
+  line-height: 22px;
+  max-width: 100%;
+  min-height: 100px;
+  padding: 4px 6px;
+  vertical-align: middle;
+
+  input {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    max-width: inherit;
+    outline: none;
+    width: auto;
+  }
+
+  input:focus {
+    border: 0;
+    box-shadow: none;
+  }
+
+  .tag {
+    color: $bg-login-form;
+    margin-right: 2px;
+  }
+  
+  .tag [data-role="remove"] {
+    cursor: pointer;
+    margin-left: 8px;
+  }
+
+  .tag [data-role="remove"]::after {
+    content: "x";
+    padding: 0 2px;
+  }
+}
+
+

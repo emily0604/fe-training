@@ -1,0 +1,36 @@
+{
+  "table": {
+    "data": [{
+        "id": "1",
+        "firstname": "Dinh",
+        "lastname": "Long",
+        "username": "Hai"
+      },
+      {
+        "id": "2",
+        "firstname": "Nguyen",
+        "lastname": "Van",
+        "username": "A"
+      },
+      {
+        "id": "3",
+        "firstname": "Tran",
+        "lastname": "Thi",
+        "username": "B"
+      }
+    ],
+    "column" : [{
+        "col": "Id"
+      },
+      {
+        "col": "First Name"
+      },
+      {
+        "col": "Last Name"
+      },
+      {
+        "col": "User Name"
+      } 
+    ]
+  }
+}

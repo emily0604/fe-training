@@ -1,0 +1,17 @@
+mixin tab(data)
+  ul.nav.nav-tabs
+    each ent, num in data
+      - if(ent.active == true)
+         li.active
+           a(data-toggle='tab' href= ent.href)= ent.value
+      - else
+         li
+           a(data-toggle='tab' href= ent.href)= ent.value
+  div.tab-content
+    each ent, num in data
+      - if(ent.active == true)
+          div.tab-pane.fade.active.in(id= ent.id)
+            p= ent.content
+      - else
+          div.tab-pane.fade(id= ent.id)
+            p= ent.content

@@ -1,0 +1,45 @@
+div.form-des1.col-md-12
+  h4 Form Design 1
+  hr
+  form.row
+    +basic_input([
+      {
+        "label": "First Name",
+        "type": "text",
+        "placeholder": "",
+        "disable": false,
+        "value": ""
+      },
+      {
+        "label": "Last Name",
+        "type": "text",
+        "placeholder": "",
+        "disable": false,
+        "value": ""
+      },
+      {
+        "label": "Middle Name / Initial",
+        "type": "text",
+        "placeholder": "",
+        "disable": false,
+        "value": ""
+      }
+    ])
+    div.form-group.col-md-12.col-sm-12
+      label.col-md-3.col-sm-3 Gender
+      div.col-md-6.col-sm-8
+        button.btn.btn-primary Male
+        button.btn.btn-success Female
+    +basic_input([
+      {
+        "label": "Date of Birth",
+        "type": "text",
+        "placeholder": "",
+        "disable": false,
+        "value": ""
+      }
+    ])
+    div.form-group.col-md-6.col-sm-12.col-md-offset-4.button-btn
+      button.btn.btn-primary Save
+      button.btn.btn-warning Register
+      button.btn.btn-success Submit

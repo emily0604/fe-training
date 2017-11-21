@@ -1,0 +1,13 @@
+{
+  "form": {
+    "login": [{
+        "type": "email",
+        "placeholder": "Email"
+      },
+      {
+        "type": "password",
+        "placeholder": "Password"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "alert": {
+    "data": [{
+        "class": "alert alert-success alert-dismissible",
+        "data_dis": "alert1",
+        "contentb": "Holy guacamole!",
+        "contentme": "Best check yo self, you're not looking too good."
+      },
+      {
+        "class": "alert alert-info alert-dismissible",
+        "data_dis": "alert2",
+        "contentb": "Holy guacamole!",
+        "contentme": "Best check yo self, you're not looking too good."
+      },
+      {
+        "class": "alert alert-warning alert-dismissible",
+        "data_dis": "alert3",
+        "contentb": "Holy guacamole!",
+        "contentme": "Best check yo self, you're not looking too good."
+      },
+      {
+        "class": "alert alert-danger alert-dismissible",
+        "data_dis": "alert4",
+        "contentb": "Holy guacamole!",
+        "contentme": "Best check yo self, you're not looking too good."
+      }
+    ]
+  }
+}
