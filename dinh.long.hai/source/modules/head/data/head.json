@@ -1,10 +1,15 @@
 {
   "head": {
     "home": {
-      "title": "Main",
-      "mobile": true,
-      "meta": "default",
-      "og": "default"
+      "title": "Login"
+    },
+
+    "ui": {
+      "title": "UI Elements"
+    },
+
+    "form": {
+      "title": "Form"
     }
   }
 }

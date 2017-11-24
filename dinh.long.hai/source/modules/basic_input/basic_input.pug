@@ -1,0 +1,9 @@
+mixin basic_input(data)
+  each ent, num in data
+    div.form-group.col-md-12.col-sm-12
+      label.col-md-3.col-sm-3= ent.label
+      div.col-md-6.col-sm-8
+        - if(ent.disable == false)
+            input.form-control(type= ent.type placeholder= ent.placeholder value= ent.value)
+        - else
+            input.form-control(disabled='disabled' type= ent.type placeholder= ent.placeholder value= ent.value)

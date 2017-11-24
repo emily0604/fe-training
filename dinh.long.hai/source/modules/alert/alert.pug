@@ -1,0 +1,7 @@
+mixin alert(data)
+  each ent, num in data
+    div(class= ent.class role= ent.data_dis)
+      buttom.close(type='button' aria-label='Close' data-dismiss= ent.data_dis)
+        span(aria-hidden='true')
+      strong= ent.contentb
+      span= ent.contentme

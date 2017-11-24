@@ -1,0 +1,15 @@
+include modules/head/head
+include modules/menu_sidebar/menu_sidebar
+include modules/tab/tab
+include modules/table/table
+include modules/alert/alert
+
+doctype html
+html
+  head
+    +head(head.ui)
+  body
+    div.container-fluid
+      div.row.wrapper
+        include parts/sidebar.pug
+        include parts/content.pug

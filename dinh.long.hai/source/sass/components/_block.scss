@@ -1,0 +1,95 @@
+.login-form {
+  background-color: $bg-login-form;
+  border: 1px solid $color-border-login;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.wrapper {
+  background-color: $bg-sidebar;
+}
+
+.sidebar {
+  background-color: $bg-sidebar;
+  color: $sidebar-text-color;
+  font-weight: bold;
+
+  .sidebar-header {
+    margin-bottom: 20px;
+  }
+}
+
+.content {
+  background-color: $bg-content;
+  padding-bottom: 190px;
+  padding-top: 50px;
+
+  .content-tabs {
+    background-color: $bg-login-form;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid $border-content;
+  }
+
+  .content-table {
+    @extend .content-tabs;
+  }
+
+  .content-alert {
+    @extend .content-tabs;
+  }
+}
+
+.form-content {
+  @extend .content;
+  padding-top: 30px;
+  color: $text-form-content;
+
+  .form-des1 {
+    @extend .content-tabs;
+
+    label {
+      text-align: right;
+      margin-top: 7px;
+    }
+  }
+
+  .form-des2 {
+    @extend .form-des1;
+    margin-right: 55px;
+  }
+
+  .form-des3 {
+    @extend .form-des1;
+  }
+
+  .form-des4 {
+    @extend .form-des1;
+    padding-bottom: 25px;
+  }
+  .form-login {
+    @extend .form-des1;
+    @include gradient($color-gradient1, $color-gradient2);
+    color: $bg-login-form;
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 1124px) {
+  .form-content .form-des2 {
+    margin-right: 20px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    height: unset;
+  }
+
+  .button-btn {
+    text-align: center;
+  }
+
+}
+

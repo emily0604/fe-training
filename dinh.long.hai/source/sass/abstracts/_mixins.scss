@@ -1,0 +1,45 @@
+@mixin gradient($color1, $color2) {
+  background: $color1; 
+  background: -webkit-linear-gradient(left top, $color1, $color2);
+  background: -o-linear-gradient(bottom right, $color1, $color2);
+  background: -moz-linear-gradient(bottom right, $color1, $color2);
+  background: linear-gradient(to bottom right, $color1, $color2);
+}
+
+@mixin boxshadow($color) {
+  -webkit-box-shadow: -1px 0 5px 0 $color;
+  -moz-box-shadow: -1px 0 5px 0 $color;
+  box-shadow: -1px 0 5px 0 $color;
+}
+
+@mixin hover-focus() {
+  @include boxshadow($color-hover);
+  	background-color: $sidebar-hover;
+  }
+
+@mixin placeholder($color) {
+  ::placeholder {
+    color: $color;
+  }
+
+  ::-webkit-input-placeholder {
+    color: $color;
+  }
+
+  :-moz-placeholder {
+     color: $color;
+  }
+
+  ::-moz-placeholder {
+     color: $color;
+  }
+
+  :-ms-input-placeholder {
+     color: $color;
+  }
+
+  ::-ms-input-placeholder {
+    color: $color;
+  }
+}
+

@@ -1,0 +1,13 @@
+mixin basic_select(data)
+  each ent, num in data
+    div.form-group.col-md-12.col-sm-12
+      label.col-md-3.col-sm-3= ent.label
+      div.col-md-6.col-sm-8
+        - if(ent.multiple == false)
+            select.form-control
+              each evt, num in ent.value
+                option= evt.option
+        - else
+            select.form-control(multiple='multiple')
+              each evt, num in ent.value
+                option= evt.option

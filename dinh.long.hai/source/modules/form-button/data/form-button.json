@@ -1,0 +1,13 @@
+{
+  "form_button": {
+    "data": [{
+        "value": "Go!",
+        "type": 1
+      },
+      {
+        "value": "Go!",
+        "type": 0
+      }
+    ]
+  }
+}

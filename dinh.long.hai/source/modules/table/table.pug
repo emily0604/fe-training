@@ -1,0 +1,13 @@
+mixin table(cols,data)
+  table.table.table-hover.table-bordered
+    thead
+      tr
+        each ent, num in cols
+          th= ent.col
+    tbody
+      each ent, num in data
+        tr
+          td= ent.id
+          td= ent.firstname
+          td= ent.lastname
+          td= ent.username

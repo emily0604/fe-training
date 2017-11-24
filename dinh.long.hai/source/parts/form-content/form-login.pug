@@ -1,0 +1,27 @@
+div.form-login.col-md-6.col-sm-12
+  h4 Form Login
+  form.row
+    +basic_input([
+      {
+        "label": "Email",
+        "type": "email",
+        "placeholder": "Email...",
+        "disable": false,
+        "value": ""
+      },
+      {
+        "label": "Password",
+        "type": "password",
+        "placeholder": "Password...",
+        "disable": false,
+        "value": ""
+      }
+    ])
+    div.form-group.col-md-12.col-sm-12
+      div.col-md-3.col-sm-3
+      div.checkbox.col-md-6.col-sm-8
+        label
+          input(type='checkbox') 
+          span Remember me
+    div.form-group.col-md-12.submit-btn
+      button.btn.btn-primary(type="submit") Sign In

@@ -1,0 +1,15 @@
+{
+  "form_inline": {
+    "data": [{
+        "value": "Name",
+        "type": "text",
+        "for": "example1"
+      },
+      {
+        "value": "Email",
+        "type": "email",
+        "for": "example2"
+      }
+    ]
+  }
+}
