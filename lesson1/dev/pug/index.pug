@@ -1,0 +1,179 @@
+extends templates/layout
+block main
+  #banner
+    ol
+      li.active(data-slider="0")
+      li(data-slider="1")
+      li(data-slider="2")
+    .slider
+      .slides
+        img(src="images/banner-1.png", alt="slide images")
+      .slides
+        img(src="images/banner-1.png", alt="slide images")
+      .slides
+        img(src="images/banner-1.png", alt="slide images")
+  #block1
+    .container.text-center
+      h2.mb-5 La Liberté guidant le peuple
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga sequi molestias consequatur esse. Molestiae iste ad laboriosam temporibus fugit! Voluptas explicabo laborum voluptate, enim sed nam velit voluptatem minus corporis.
+  #block2
+    .container
+      h2.mb-5.text-center La Liberté guidant  le peuple est une huile sur toile d'Eugène 
+      .wrapper 
+        article
+          p
+            span 1.
+            |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia architecto distinctio beatae optio odit, maxime molestiae itaque! Totam corporis dignissimos natus suscipit accusamus facilis temporibus dolor repellat aut doloribus! Dolore?
+        article
+          p
+            span 2.
+            |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia architecto distinctio beatae optio odit, maxime molestiae itaque! Totam corporis dignissimos natus suscipit accusamus facilis temporibus dolor repellat aut doloribus! Dolore?
+        article
+          p
+            span 3.
+            |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia architecto distinctio beatae optio odit, maxime molestiae itaque! Totam corporis dignissimos natus suscipit accusamus facilis temporibus dolor repellat aut doloribus! Dolore?
+  #block3 
+    .container 
+      h2.text-center.mb-4 Notre Equipe
+      .wrapper
+        article
+          img(src="images/team-1.png", alt="our team")
+          h5 CRAIG GARNER
+            small  CEO
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis nostrum enim pro repellat vel accusamus cumque esse deleniti!
+          .contact
+            a(href="#!")
+              i.fa.fa-facebook
+            a(href="#!")
+              i.fa.fa-google-plus
+        article
+          img(src="images/team-2.png", alt="our team")
+          h5 CRAIG GARNER
+            small  CEO
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis nostrum enim pro repellat vel accusamus cumque esse deleniti!
+          .contact
+            a(href="#!")
+              i.fa.fa-facebook
+            a(href="#!")
+              i.fa.fa-google-plus
+        article
+          img(src="images/team-3.png", alt="our team")
+          h5 CRAIG GARNER
+            small  CEO
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis nostrum enim pro repellat vel accusamus cumque esse deleniti!
+          .contact
+            a(href="#!")
+              i.fa.fa-facebook
+            a(href="#!")
+              i.fa.fa-google-plus
+  #block4
+    .container
+      h2.text-center Our features
+      article.row
+        .col-md-6
+          h3 Visual composer Page builder
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolorum officia iusto hic obcaecati, libero perspiciatis vero consectetur sequi fugiat sunt facilis accusantium porro nostrum, molestias optio nisi tempore, iure.
+          a(href="#!") Lire Plus
+        .col-md-6
+            img(src="images/feature-1.png", alt="feature img")
+      article.row
+        .col-md-6
+          img(src="images/feature-2.png", alt="feature img")
+        .col-md-6
+          h3 Customize & Live preview
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolorum officia iusto hic obcaecati, libero perspiciatis vero consectetur sequi fugiat sunt facilis accusantium porro nostrum, molestias optio nisi tempore, iure.
+          a(href="#!") Lire Plus
+  #block5 
+    .container
+      h2.text-center.mb-3 What's the buzz
+      .client
+        ol
+          li(data-slider="0")
+          li(data-slider="1")
+          li(data-slider="2")
+        .slide-wrapper                        
+          .item
+            .avatar
+              img(src="images/client-1.png", alt="")
+            .respond         
+              p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perferendis nihil aumilique ratione nesciunt quos id quisquam animi ipsa!
+              span GEORG CLOONEY
+          .item
+            .avatar
+              img(src="images/client-1.png", alt="")
+            .respond         
+              p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perferendis nihil aumilique ratione nesciunt quos id quisquam animi ipsa!
+              span GEORG CLOONEY
+          .item
+            .avatar
+              img(src="images/client-1.png", alt="")
+            .respond         
+              p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perferendis nihil aumilique ratione nesciunt quos id quisquam animi ipsa!
+              span GEORG CLOONEY
+
+  #block6 
+    .container 
+      h2.text-center portfolio
+      .link
+        a(href="#!") Show
+        a(href="#!") All
+        a(href="#!") Web
+        a(href="#!") print
+        a(href="#!") branding
+      .row
+        .col-lg-3.col-md-4.col-6
+          img(src="images/thumbnail-1.png", alt="")
+          .img-description
+            a(href="#!")
+              i.fa.fa-plus
+            a(href="#!")
+              i.fa.fa-eye
+        .col-lg-3.col-md-4.col-6
+          img(src="images/thumbnail-2.png", alt="")
+          .img-description
+            a(href="#!")
+              i.fa.fa-plus
+            a(href="#!")
+              i.fa.fa-eye
+        .col-lg-3.col-md-4.col-6
+          img(src="images/thumbnail-3.png", alt="")
+          .img-description
+            a(href="#!")
+              i.fa.fa-plus
+            a(href="#!")
+              i.fa.fa-eye
+        .col-lg-3.col-md-4.col-6
+          img(src="images/thumbnail-4.png", alt="")
+          .img-description
+            a(href="#!")
+              i.fa.fa-plus
+            a(href="#!")
+              i.fa.fa-eye
+        .col-lg-3.col-md-4.col-6
+          img(src="images/thumbnail-5.png", alt="")
+          .img-description
+            a(href="#!")
+              i.fa.fa-plus
+            a(href="#!")
+              i.fa.fa-eye
+        .col-lg-3.col-md-4.col-6
+          img(src="images/thumbnail-6.png", alt="")
+          .img-description
+            a(href="#!")
+              i.fa.fa-plus
+            a(href="#!")
+              i.fa.fa-eye
+        .col-lg-3.col-md-4.col-6
+          img(src="images/thumbnail-7.png", alt="")
+          .img-description
+            a(href="#!")
+              i.fa.fa-plus
+            a(href="#!")
+              i.fa.fa-eye
+        .col-lg-3.col-md-4.col-6
+          img(src="images/thumbnail-8.png", alt="")
+          .img-description
+            a(href="#!")
+              i.fa.fa-plus
+            a(href="#!")
+              i.fa.fa-eye
